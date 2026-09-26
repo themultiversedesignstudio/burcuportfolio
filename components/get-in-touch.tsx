@@ -4,7 +4,7 @@ export function GetInTouch() {
   return (
     <section
       id="start-a-project"
-      className="px-5 pb-10 pt-24 md:px-10 md:pt-36"
+      className="scroll-mt-20 px-5 pb-10 pt-24 md:px-10 md:pt-36"
       aria-labelledby="get-in-touch-heading"
     >
       <h2 id="get-in-touch-heading" className="sr-only">

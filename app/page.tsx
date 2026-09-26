@@ -6,18 +6,20 @@ import { projects, site } from "@/lib/site";
 export default function HomePage() {
   return (
     <div className="mx-auto w-full max-w-[1440px]">
-      <section className="px-5 pb-6 pt-8 md:px-10 md:pt-16">
-        <h1 className="font-bold lowercase leading-[0.86] tracking-[-0.06em] text-cream text-[clamp(3.6rem,16vw,14.1rem)]">
-          {site.name}
+      <section className="px-5 pb-10 pt-8 md:px-10 md:pb-16 md:pt-12">
+        <h1 className="font-bold lowercase leading-[0.86] tracking-[-0.06em] text-cream text-[clamp(3.8rem,18vw,14.125rem)] md:whitespace-nowrap md:text-[12.6vw]">
+          burcu{" "}
+          <br className="md:hidden" />
+          payidarol
         </h1>
-        <p className="ml-auto mt-8 max-w-[34rem] text-right text-[15px] leading-6 text-cream md:mt-4 md:text-base">
+        <p className="mt-8 max-w-[34rem] text-left text-[15px] leading-6 text-cream md:ml-auto md:mt-6 md:text-right md:text-base">
           {site.tagline}
         </p>
       </section>
 
-      <section id="work" className="space-y-20 px-5 pt-10 md:space-y-28 md:px-10">
+      <section id="work" className="space-y-16 pt-4 md:space-y-24">
         {projects.map((project) => (
-          <ProjectCard key={project.slug} project={project} />
+          <ProjectCard key={project.slug} project={project} bleed />
         ))}
       </section>
 
