@@ -36,8 +36,8 @@ export default function SplytPage() {
 
       <div className="px-5 md:px-10">
         <section className="mt-16">
-          <p className="text-sm text-cream-soft">Project Overview</p>
-          <h2 className="mt-3 max-w-4xl text-[clamp(1.4rem,2.6vw,2rem)] font-medium leading-snug text-cream">
+          <p className="text-base text-cream-soft">Project Overview</p>
+          <h2 className="text-copy-lg mt-4 max-w-5xl font-normal">
             a peer-to-peer payment app designed to simplify bill-splitting among
             friends at restaurants.
           </h2>
@@ -170,7 +170,7 @@ export default function SplytPage() {
         </CaseSection>
 
         <section className="mt-16 md:mt-24">
-          <p className="text-sm text-cream-soft">User Persona</p>
+          <p className="text-base text-cream-soft">User Persona</p>
           <h2 className="mt-3 text-[clamp(1.5rem,3vw,2.2rem)] font-medium text-purple">
             20 years old | Business Major
           </h2>
@@ -181,8 +181,8 @@ export default function SplytPage() {
               className="mt-0"
             />
             <div>
-              <p className="text-sm text-cream-soft">user story:</p>
-              <p className="mt-3 max-w-2xl text-[16px] leading-7 text-cream">
+              <p className="text-base text-cream-soft">user story:</p>
+              <p className="text-copy mt-4 max-w-3xl">
                 Jordan is a busy college student juggling classes, a part-time
                 job, and an active social life. He and his friends often go out
                 for meals, take weekend trips, and share costs for groceries,
@@ -190,7 +190,7 @@ export default function SplytPage() {
                 usually organizes group activities — but hates having to
                 constantly remind friends to pay him back.
               </p>
-              <p className="mt-8 text-sm text-cream-soft">goals:</p>
+              <p className="mt-8 text-base text-cream-soft">goals:</p>
               <CaseList
                 items={[
                   "Split bills easily without awkward reminders.",

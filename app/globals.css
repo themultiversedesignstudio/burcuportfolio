@@ -102,13 +102,30 @@
 
   body {
     @apply bg-background text-foreground antialiased;
-    font-weight: 500;
-    letter-spacing: -0.02em;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  p,
+  li,
+  dd,
+  figcaption {
+    font-weight: 400;
   }
 
   a:focus-visible,
   button:focus-visible {
     outline: 2px solid #ece8df;
     outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .text-copy {
+    @apply text-[1.5rem] font-normal leading-snug tracking-[-0.01em] text-cream md:text-[1.75rem];
+  }
+
+  .text-copy-lg {
+    @apply text-[1.75rem] font-normal leading-snug tracking-[-0.01em] text-cream md:text-[2.25rem];
   }
 }

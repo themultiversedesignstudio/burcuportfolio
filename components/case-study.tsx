@@ -42,8 +42,8 @@ export function CaseMeta({
     <dl className="mt-10 grid grid-cols-2 gap-6 border-b border-cream/10 pb-10 md:grid-cols-4">
       {items.map((item) => (
         <div key={item.label}>
-          <dt className="text-sm text-cream-soft">{item.label}</dt>
-          <dd className="mt-1 text-[15px] text-cream">{item.value}</dd>
+          <dt className="text-base text-cream-soft">{item.label}</dt>
+          <dd className="mt-1 text-[1.125rem] text-cream">{item.value}</dd>
         </div>
       ))}
     </dl>
@@ -63,10 +63,10 @@ export function CaseSection({
 }) {
   return (
     <section className="mt-16 md:mt-24">
-      <p className="text-sm text-cream-soft">{label}</p>
+      <p className="text-base text-cream-soft">{label}</p>
       <h2
         className={cn(
-          "mt-3 max-w-5xl text-[clamp(1.7rem,4vw,3.1rem)] font-medium leading-[1.15] tracking-tight",
+          "mt-3 max-w-5xl text-[clamp(1.7rem,4vw,3.1rem)] font-normal leading-[1.15] tracking-tight",
           accent === "pink" ? "text-pink" : "text-purple",
         )}
       >
@@ -79,7 +79,7 @@ export function CaseSection({
 
 export function CaseCopy({ children }: { children: ReactNode }) {
   return (
-    <div className="mt-6 max-w-4xl space-y-4 text-[16px] leading-7 text-cream">
+    <div className="text-copy mt-5 max-w-5xl space-y-3">
       {children}
     </div>
   );
@@ -87,7 +87,7 @@ export function CaseCopy({ children }: { children: ReactNode }) {
 
 export function CaseList({ items }: { items: string[] }) {
   return (
-    <ul className="mt-5 max-w-4xl list-disc space-y-3 pl-5 text-[16px] leading-7 text-cream">
+    <ul className="text-copy mt-5 max-w-5xl list-disc space-y-2 pl-6">
       {items.map((item) => (
         <li key={item}>{item}</li>
       ))}

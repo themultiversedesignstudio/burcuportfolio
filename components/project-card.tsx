@@ -33,10 +33,10 @@ export function ProjectCard({
           />
         </div>
         <div className={bleed ? "px-5 md:px-10" : ""}>
-          <Heading className="mt-6 text-[28px] font-medium tracking-tight text-cream md:text-[32px]">
+          <Heading className="mt-6 text-[28px] font-medium tracking-tight text-[#9c9a95] md:text-[32px]">
             {project.title}
           </Heading>
-          <p className="mt-2 max-w-3xl text-[15px] leading-7 text-cream md:text-base">
+          <p className="text-copy mt-3 max-w-5xl">
             {project.types} {project.blurb}
           </p>
         </div>

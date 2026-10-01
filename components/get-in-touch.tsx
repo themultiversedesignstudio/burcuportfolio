@@ -1,3 +1,4 @@
+import { BrainBadge } from "@/components/brain-badge";
 import { site } from "@/lib/site";
 
 export function GetInTouch() {
@@ -17,17 +18,7 @@ export function GetInTouch() {
         <span className="font-bold lowercase leading-none tracking-[-0.06em] text-[clamp(3.5rem,12vw,9rem)]">
           get in
         </span>
-        <span className="relative size-20 overflow-hidden rounded-full bg-[#ffd54a] md:size-28">
-          <video
-            src="/images/shared/brain-badge.mp4"
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="h-full w-full object-cover"
-            aria-hidden
-          />
-        </span>
+        <BrainBadge className="size-20 md:size-28" />
         <span className="font-bold lowercase leading-none tracking-[-0.06em] text-[clamp(3.5rem,12vw,9rem)]">
           touch
         </span>

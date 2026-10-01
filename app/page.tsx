@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { BrainBadge } from "@/components/brain-badge";
 import { Button } from "@/components/ui/button";
 import { ProjectCard } from "@/components/project-card";
 import { projects, site } from "@/lib/site";
@@ -7,12 +8,13 @@ export default function HomePage() {
   return (
     <div className="mx-auto w-full max-w-[1440px]">
       <section className="px-5 pb-10 pt-8 md:px-10 md:pb-16 md:pt-12">
-        <h1 className="font-bold lowercase leading-[0.86] tracking-[-0.06em] text-cream text-[clamp(3.8rem,18vw,14.125rem)] md:whitespace-nowrap md:text-[12.6vw]">
+        <h1 className="relative mb-[0.16em] w-fit pr-[0.62em] font-bold lowercase leading-[0.86] tracking-[-0.06em] text-cream text-[clamp(3.8rem,18vw,14.125rem)] md:whitespace-nowrap md:text-[12.6vw]">
           burcu{" "}
           <br className="md:hidden" />
           payidarol
+          <BrainBadge className="absolute bottom-[0.02em] right-0 size-[0.55em]" />
         </h1>
-        <p className="mt-8 max-w-[34rem] text-left text-[15px] leading-6 text-cream md:ml-auto md:mt-6 md:text-right md:text-base">
+        <p className="max-w-[40rem] text-left text-[1.25rem] font-normal leading-snug tracking-[-0.01em] text-cream md:ml-auto md:max-w-[36rem] md:text-right md:text-[1.375rem]">
           {site.tagline}
         </p>
       </section>
@@ -24,7 +26,7 @@ export default function HomePage() {
       </section>
 
       <section className="px-5 pt-24 md:px-10 md:pt-36">
-        <h2 className="max-w-5xl text-[clamp(1.8rem,4.4vw,3.4rem)] font-medium leading-[1.12] tracking-tight text-cream">
+        <h2 className="max-w-5xl text-[clamp(1.8rem,4.4vw,3.4rem)] font-normal leading-[1.12] tracking-tight text-cream">
           I&apos;m Burcu, a NYC-based Product Designer specializing in end-to-end
           product design, from user research and strategy to execution and
           delivery.
@@ -40,8 +42,8 @@ export default function HomePage() {
           />
 
           <div>
-            <h3 className="text-sm text-cream-soft">why work with me</h3>
-            <p className="mt-4 text-[15px] leading-7 text-cream">
+            <h3 className="text-base text-cream-soft">why work with me</h3>
+            <p className="text-copy mt-5">
               I believe the best products come from true collaboration. When we
               work together, you&apos;re not just getting a designer; you&apos;re
               getting a strategic partner who takes the time to understand your
@@ -63,13 +65,13 @@ export default function HomePage() {
           </div>
 
           <div>
-            <h3 className="text-sm text-cream-soft">when I&apos;m not designing</h3>
-            <p className="mt-4 text-[15px] leading-7 text-cream">
+            <h3 className="text-base text-cream-soft">when I&apos;m not designing</h3>
+            <p className="text-copy mt-5">
               You&apos;ll find me exploring NYC&apos;s coffee scene, getting lost
               in a good book, traveling to new places, or analyzing
               opportunities in the stock market.
             </p>
-            <p className="mt-10 text-sm text-cream-soft">Currently reading</p>
+            <p className="mt-10 text-base text-cream-soft">Currently reading</p>
             <figure className="mt-3">
               <Image
                 src="/images/home/east-of-eden.jpg"
@@ -78,7 +80,7 @@ export default function HomePage() {
                 height={600}
                 className="h-auto w-full max-w-[240px] object-cover"
               />
-              <figcaption className="mt-2 text-sm text-cream-soft">
+              <figcaption className="mt-2 text-base text-cream-soft">
                 East of Eden — John Steinbeck
               </figcaption>
             </figure>

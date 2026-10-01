@@ -7,7 +7,7 @@ export function SiteFooter() {
     <footer className="mt-auto bg-ink text-cream">
       <GetInTouch />
       <div className="mx-auto grid max-w-[1440px] gap-10 px-5 pb-10 pt-16 md:grid-cols-3 md:px-10">
-        <div className="space-y-1 text-[15px] leading-7 text-cream">
+        <div className="space-y-1 text-[1.125rem] leading-8 text-cream">
           <p>
             Email:{" "}
             <a href={site.mailto} className="underline-offset-4 hover:underline">
@@ -18,8 +18,8 @@ export function SiteFooter() {
           <p>Available for: {site.availability}</p>
         </div>
         <div className="md:justify-self-end">
-          <p className="mb-2 text-sm text-cream-soft">pages</p>
-          <ul className="space-y-1 text-[15px]">
+          <p className="mb-2 text-base text-cream-soft">pages</p>
+          <ul className="space-y-1 text-[1.125rem]">
             <li>
               <Link href="/" className="hover:underline">
                 home
@@ -38,8 +38,8 @@ export function SiteFooter() {
           </ul>
         </div>
         <div className="md:justify-self-end">
-          <p className="mb-2 text-sm text-cream-soft">socials</p>
-          <ul className="space-y-1 text-[15px]">
+          <p className="mb-2 text-base text-cream-soft">socials</p>
+          <ul className="space-y-1 text-[1.125rem]">
             <li>
               <a
                 href={site.linkedin}

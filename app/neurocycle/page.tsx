@@ -36,8 +36,8 @@ export default function NeurocyclePage() {
 
       <div className="px-5 md:px-10">
         <section className="mt-16">
-          <p className="text-sm text-cream-soft">Project Overview</p>
-          <h2 className="mt-3 max-w-4xl text-[clamp(1.4rem,2.6vw,2rem)] font-medium leading-snug text-cream">
+          <p className="text-base text-cream-soft">Project Overview</p>
+          <h2 className="text-copy-lg mt-4 max-w-5xl font-normal">
             Led the end-to-end redesign of Dr. Leaf’s 5-step program into a
             structured, gamified experience designed to support lasting behavior
             change and reinforce positive daily habits.
@@ -139,15 +139,15 @@ export default function NeurocyclePage() {
           <dl className="mt-8 grid max-w-xl grid-cols-3 gap-6 text-cream">
             <div>
               <dt className="text-4xl font-bold tracking-tight">86%</dt>
-              <dd className="mt-1 text-sm text-cream-soft">female</dd>
+              <dd className="mt-1 text-base text-cream-soft">female</dd>
             </div>
             <div>
               <dt className="text-4xl font-bold tracking-tight">12%</dt>
-              <dd className="mt-1 text-sm text-cream-soft">male</dd>
+              <dd className="mt-1 text-base text-cream-soft">male</dd>
             </div>
             <div>
               <dt className="text-4xl font-bold tracking-tight">2%</dt>
-              <dd className="mt-1 text-sm text-cream-soft">nonbinary</dd>
+              <dd className="mt-1 text-base text-cream-soft">nonbinary</dd>
             </div>
           </dl>
         </CaseSection>
@@ -207,7 +207,7 @@ export default function NeurocyclePage() {
         </CaseSection>
 
         <section className="mt-16 md:mt-24">
-          <p className="text-sm text-cream-soft">Color</p>
+          <p className="text-base text-cream-soft">Color</p>
           <h2 className="mt-3 text-[clamp(1.7rem,4vw,3.1rem)] font-medium tracking-tight text-pink">
             Primary Colors
           </h2>

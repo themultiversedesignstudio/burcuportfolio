@@ -27,8 +27,8 @@ export default function DesparkPage() {
 
       <div className="px-5 md:px-10">
         <section className="mt-16">
-          <p className="text-sm text-cream-soft">Project Overview</p>
-          <h2 className="mt-3 max-w-4xl text-[clamp(1.4rem,2.6vw,2rem)] font-medium leading-snug text-cream">
+          <p className="text-base text-cream-soft">Project Overview</p>
+          <h2 className="text-copy-lg mt-4 max-w-5xl font-normal">
             Web platform for user research that connects companies with target
             users and provides them with cryto currency as incentives.
           </h2>

@@ -45,13 +45,13 @@ export default function AboutPage() {
 
       <div className="mt-12 grid items-start gap-12 md:mt-16 md:grid-cols-2">
         <div>
-          <p className="max-w-xl text-[18px] leading-8 text-cream md:text-[20px] md:leading-9">
+          <p className="text-copy-lg max-w-2xl">
             I&apos;m a product designer and user researcher leading product and
             visual design initiatives for startups and small businesses,
             combining strategy, storytelling, and user experience to drive
             growth.
           </p>
-          <p className="mt-8 max-w-xl text-[18px] leading-8 text-cream md:text-[20px] md:leading-9">
+          <p className="text-copy-lg mt-3 max-w-2xl">
             I graduated from Rutgers University with a bachelors in ITI and
             Psychology have been designing digital products professionally for
             four years.
@@ -86,11 +86,11 @@ export default function AboutPage() {
               className="grid gap-3 py-8 md:grid-cols-[0.7fr_1.4fr_0.6fr] md:items-start md:gap-8"
             >
               <div>
-                <p className="text-[17px] text-cream">{job.company}</p>
-                <p className="mt-1 text-sm text-cream-soft">{job.role}</p>
+                <p className="text-[1.25rem] text-cream">{job.company}</p>
+                <p className="mt-1 text-base text-cream-soft">{job.role}</p>
               </div>
-              <p className="text-[15px] leading-7 text-cream">{job.body}</p>
-              <p className="text-sm text-cream-soft md:text-right">
+              <p className="text-copy">{job.body}</p>
+              <p className="text-base text-cream-soft md:text-right">
                 {job.dates}
               </p>
             </li>
