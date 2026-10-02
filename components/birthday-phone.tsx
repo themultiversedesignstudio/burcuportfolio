@@ -167,7 +167,12 @@ export function BirthdayPhone() {
             </span>
           </div>
 
-          <div className="flex min-h-0 flex-1 flex-col px-5 pt-4 pb-4">
+          <div
+            className={cn(
+              "flex min-h-0 flex-1 flex-col px-5 pt-4 transition-[padding-bottom] duration-300 ease-out motion-reduce:transition-none",
+              keyboardOpen ? "pb-[248px]" : "pb-4",
+            )}
+          >
             <h3 className="text-center text-[17px] font-semibold tracking-tight">
               What is your birthday? <span aria-hidden>🎂</span>
             </h3>
@@ -220,12 +225,11 @@ export function BirthdayPhone() {
 
           <div
             className={cn(
-              "grid transition-[grid-template-rows] duration-300 ease-out motion-reduce:transition-none",
-              keyboardOpen ? "grid-rows-[248px]" : "grid-rows-[0px]",
+              "absolute inset-x-0 bottom-0 z-30 flex h-[248px] flex-col bg-[#d1d3d9] transition-transform duration-300 ease-out motion-reduce:transition-none",
+              keyboardOpen ? "translate-y-0" : "pointer-events-none translate-y-full",
             )}
+            inert={keyboardOpen ? undefined : true}
           >
-            <div className="overflow-hidden" inert={keyboardOpen ? undefined : true}>
-              <div className="flex h-[248px] flex-col bg-[#d1d3d9]">
                 <div className="flex h-11 shrink-0 items-center justify-between border-b border-black/10 px-3">
                   <span className="text-[13px] text-neutral-600">
                     {active === "month" ? "Month" : active === "day" ? "Day" : active === "year" ? "Year" : ""}
@@ -268,8 +272,6 @@ export function BirthdayPhone() {
                     );
                   })}
                 </div>
-              </div>
-            </div>
           </div>
 
           <div className="pointer-events-none absolute bottom-1.5 left-1/2 z-40 h-1 w-28 -translate-x-1/2 rounded-full bg-black/80" />
