@@ -212,10 +212,7 @@ export function BirthdayPhone() {
               type="button"
               onClick={onContinue}
               aria-disabled={!ready}
-              className={cn(
-                "mt-auto h-12 w-full rounded-xl bg-[#e7f86a] text-[16px] font-semibold text-black shadow-[0_4px_0_#c5dc4e] transition-transform focus-visible:outline-[#2f8f3a] active:translate-y-1 active:shadow-none",
-                ready ? "opacity-100" : "opacity-45",
-              )}
+              className="mt-auto h-12 w-full rounded-xl bg-[#e7f86a] text-[16px] font-semibold text-black shadow-[0_4px_0_#c5dc4e] transition-transform focus-visible:outline-[#2f8f3a] active:translate-y-1 active:shadow-none"
             >
               Continue
             </button>
