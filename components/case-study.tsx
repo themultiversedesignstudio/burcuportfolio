@@ -18,7 +18,7 @@ export function CaseHero({
       <h1 className="px-5 text-center font-bold lowercase leading-none tracking-[-0.07em] text-cream text-[clamp(3.4rem,12vw,8.5rem)] md:px-10">
         {title}
       </h1>
-      <div className="mt-12 overflow-hidden bg-stage md:mt-16 md:rounded-none">
+      <div className="mt-12 overflow-hidden md:mt-16">
         <Image
           src={image}
           alt={alt}

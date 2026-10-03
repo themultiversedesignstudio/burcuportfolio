@@ -16,19 +16,17 @@ export function ProjectCard({
   return (
     <article>
       <Link href={project.href} className="group block">
-        <div
-          className={
-            bleed
-              ? "overflow-hidden bg-stage"
-              : "overflow-hidden rounded-[28px] bg-stage"
-          }
-        >
+        <div className={bleed ? "overflow-hidden" : undefined}>
           <Image
             src={project.hero}
             alt={project.heroAlt}
             width={2048}
             height={1365}
-            className="mx-auto h-auto w-full max-w-full object-contain transition duration-500 group-hover:scale-[1.015] md:max-h-[460px] md:w-auto"
+            className={
+              bleed
+                ? "mx-auto h-auto w-full max-w-full object-contain transition duration-500 group-hover:scale-[1.015] md:max-h-[460px] md:w-auto"
+                : "mx-auto h-auto w-full max-w-full rounded-[28px] object-contain transition duration-500 group-hover:scale-[1.015] md:max-h-[460px] md:w-auto"
+            }
             sizes="(min-width: 768px) 920px, 100vw"
           />
         </div>
