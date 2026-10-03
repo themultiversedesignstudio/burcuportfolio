@@ -6,7 +6,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About me",
   description:
-    "NYC-based product designer and user researcher. Four years designing digital products, including Neurocycle, Despark, and Splyt.",
+    "NYC-based product designer and founder of Multiverse Design Studio. Experience includes Neurocycle, Despark, and Splyt.",
 };
 
 const experience = [
@@ -15,6 +15,12 @@ const experience = [
     role: "head of product",
     dates: "jan 2024 - now",
     body: "lead end-to-end redesign decreasing user error by 40% and improving App Store ratings from 3.2 to 4.0 and Google Play from 3.0 to 3.8.",
+  },
+  {
+    company: "multiverse design studio",
+    role: "founder, product designer",
+    dates: "jun 2023 - now",
+    body: "design and build live digital products, from design systems and a website-integrated POS to AI-assisted client workflows.",
   },
   {
     company: "despark",
@@ -50,6 +56,10 @@ export default function AboutPage() {
             visual design initiatives for startups and small businesses,
             combining strategy, storytelling, and user experience to drive
             growth.
+          </p>
+          <p className="text-copy-lg mt-3 max-w-2xl">
+            I founded Multiverse Design Studio, where I design and build live
+            digital products for clients.
           </p>
           <p className="text-copy-lg mt-3 max-w-2xl">
             I graduated from Rutgers University with a bachelors in ITI and
