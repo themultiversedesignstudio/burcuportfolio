@@ -85,6 +85,31 @@ export default function AboutPage() {
         />
       </div>
 
+      <section
+        aria-label="How I work"
+        className="relative -mx-5 mt-24 overflow-hidden bg-[#f6f5f2] px-5 py-16 text-[#1c1e22] md:-mx-10 md:mt-36 md:px-12 md:py-24"
+      >
+        <div className="relative w-fit max-w-full">
+          <p className="font-bold lowercase leading-[0.78] tracking-[-0.065em] text-[clamp(4.2rem,18vw,16rem)]">
+            research
+            <br />
+            design
+            <br />
+            build
+            <br />
+            lead
+            <br />
+            ship
+          </p>
+          <span className="absolute right-[2%] top-[7%] bg-[#d8f6e6] px-3 py-2 text-sm font-medium text-[#3c4f46] shadow-[3px_3px_0_rgba(28,30,34,0.06)] md:px-4 md:py-2.5 md:text-lg">
+            UI Design
+          </span>
+          <span className="absolute bottom-[14%] left-0 bg-[#e3d7fb] px-3 py-2 text-sm font-medium text-[#4d3f63] shadow-[3px_3px_0_rgba(28,30,34,0.06)] md:-left-2 md:px-4 md:py-2.5 md:text-lg">
+            UX Research
+          </span>
+        </div>
+      </section>
+
       <section className="mt-24 md:mt-36">
         <h2 className="font-bold lowercase leading-none tracking-[-0.06em] text-cream text-[clamp(2.6rem,8vw,6rem)]">
           my experience
