@@ -37,7 +37,7 @@ export default function NeurocyclePage() {
       <div className="px-5 md:px-10">
         <section className="mt-16">
           <p className="text-base text-cream-soft">Project Overview</p>
-          <h2 className="text-copy-lg mt-4 max-w-5xl font-normal">
+          <h2 className="case-type mt-4 text-cream">
             Led the end-to-end redesign of Dr. Leaf’s 5-step program into a
             structured, gamified experience designed to support lasting behavior
             change and reinforce positive daily habits.
@@ -73,7 +73,7 @@ export default function NeurocyclePage() {
         />
 
         <div className="mt-16">
-          <h3 className="text-[clamp(1.5rem,3vw,2.2rem)] font-medium leading-snug text-pink">
+          <h3 className="case-type text-pink">
             1. Optimized account creation to increase onboarding conversion
           </h3>
           <CaseList
@@ -89,7 +89,7 @@ export default function NeurocyclePage() {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-[clamp(1.5rem,3vw,2.2rem)] font-medium leading-snug text-pink">
+          <h3 className="case-type text-pink">
             2. Improved free trial transparency to build user trust
           </h3>
           <CaseList
@@ -106,7 +106,7 @@ export default function NeurocyclePage() {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-[clamp(1.5rem,3vw,2.2rem)] font-medium leading-snug text-pink">
+          <h3 className="case-type text-pink">
             3. Replaced lengthy introductions with an optional engaging exercise
           </h3>
           <CaseList
@@ -126,7 +126,7 @@ export default function NeurocyclePage() {
           label="User Research"
           heading="User research: Overview"
         >
-          <CaseCopy className="max-w-none text-justify">
+          <CaseCopy>
             <p>
               To better understand friction points in the legacy experience, the
               team analyzed 1,000+ user survey responses, usability findings,

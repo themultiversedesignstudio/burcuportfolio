@@ -28,7 +28,7 @@ export default function DesparkPage() {
       <div className="px-5 md:px-10">
         <section className="mt-16">
           <p className="text-base text-cream-soft">Project Overview</p>
-          <h2 className="text-copy-lg mt-4 max-w-5xl font-normal">
+          <h2 className="case-type mt-4 text-cream">
             Web platform for user research that connects companies with target
             users and provides them with cryto currency as incentives.
           </h2>
@@ -66,7 +66,7 @@ export default function DesparkPage() {
         />
 
         <div className="mt-16">
-          <h3 className="text-[clamp(1.5rem,3vw,2.2rem)] font-medium leading-snug text-purple">
+          <h3 className="case-type text-purple">
             1. Simplified Mission Interview Experience
           </h3>
           <CaseList
@@ -82,7 +82,7 @@ export default function DesparkPage() {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-[clamp(1.5rem,3vw,2.2rem)] font-medium leading-snug text-purple">
+          <h3 className="case-type text-purple">
             2. Enhanced Profile Editing Experience
           </h3>
           <CaseList
@@ -98,7 +98,7 @@ export default function DesparkPage() {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-[clamp(1.5rem,3vw,2.2rem)] font-medium leading-snug text-purple">
+          <h3 className="case-type text-purple">
             3. Boosting User Eligibility & Engagement
           </h3>
           <CaseList

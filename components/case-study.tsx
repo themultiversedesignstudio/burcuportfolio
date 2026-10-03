@@ -66,7 +66,7 @@ export function CaseSection({
       <p className="text-base text-cream-soft">{label}</p>
       <h2
         className={cn(
-          "mt-3 max-w-5xl text-[clamp(1.7rem,4vw,3.1rem)] font-normal leading-[1.15] tracking-tight",
+          "case-type mt-3",
           accent === "pink" ? "text-pink" : "text-purple",
         )}
       >
@@ -77,23 +77,13 @@ export function CaseSection({
   );
 }
 
-export function CaseCopy({
-  children,
-  className,
-}: {
-  children: ReactNode;
-  className?: string;
-}) {
-  return (
-    <div className={cn("text-copy mt-5 max-w-5xl space-y-3", className)}>
-      {children}
-    </div>
-  );
+export function CaseCopy({ children }: { children: ReactNode }) {
+  return <div className="case-type mt-5 space-y-3 text-cream">{children}</div>;
 }
 
 export function CaseList({ items }: { items: string[] }) {
   return (
-    <ul className="text-copy mt-5 max-w-5xl list-disc space-y-2 pl-6">
+    <ul className="case-type mt-5 list-disc space-y-2 pl-6 text-cream">
       {items.map((item) => (
         <li key={item}>{item}</li>
       ))}

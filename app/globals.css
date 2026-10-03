@@ -128,4 +128,8 @@
   .text-copy-lg {
     @apply text-[1.75rem] font-normal leading-snug tracking-[-0.01em] text-cream md:text-[2.25rem];
   }
+
+  .case-type {
+    @apply max-w-5xl text-[clamp(1.7rem,4vw,3.1rem)] font-normal leading-[1.15] tracking-tight;
+  }
 }

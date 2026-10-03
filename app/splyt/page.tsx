@@ -37,7 +37,7 @@ export default function SplytPage() {
       <div className="px-5 md:px-10">
         <section className="mt-16">
           <p className="text-base text-cream-soft">Project Overview</p>
-          <h2 className="text-copy-lg mt-4 max-w-5xl font-normal">
+          <h2 className="case-type mt-4 text-cream">
             a peer-to-peer payment app designed to simplify bill-splitting among
             friends at restaurants.
           </h2>
@@ -78,7 +78,7 @@ export default function SplytPage() {
         />
 
         <div className="mt-16">
-          <h3 className="text-[clamp(1.5rem,3vw,2.2rem)] font-medium leading-snug text-purple">
+          <h3 className="case-type text-purple">
             1. Enabled moderators to check the original receipt
           </h3>
           <CaseList
@@ -94,7 +94,7 @@ export default function SplytPage() {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-[clamp(1.5rem,3vw,2.2rem)] font-medium leading-snug text-purple">
+          <h3 className="case-type text-purple">
             2. Introduced asynchronouse payments for faster checkout
           </h3>
           <CaseList
@@ -111,7 +111,7 @@ export default function SplytPage() {
         </div>
 
         <div className="mt-16">
-          <h3 className="text-[clamp(1.5rem,3vw,2.2rem)] font-medium leading-snug text-purple">
+          <h3 className="case-type text-purple">
             3. Give moderators full visibility into group activity
           </h3>
           <CaseList
@@ -182,7 +182,7 @@ export default function SplytPage() {
             />
             <div>
               <p className="text-base text-cream-soft">user story:</p>
-              <p className="text-copy mt-4 max-w-3xl">
+              <p className="case-type mt-4 text-cream">
                 Jordan is a busy college student juggling classes, a part-time
                 job, and an active social life. He and his friends often go out
                 for meals, take weekend trips, and share costs for groceries,
