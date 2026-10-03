@@ -143,26 +143,26 @@ export default function DesparkPage() {
             Final Design
           </h2>
           <div className="mt-10 grid gap-6 md:grid-cols-2">
-            <CaseFigure
-              src="/images/despark/cqWXE1sfBOTiakN2vD8b3IMu98.png"
-              alt="Despark final missions interface"
-              className="mt-0"
-            />
-            <CaseFigure
-              src="/images/despark/HlbuQL2AsMxGpMtfv58U7lMHI.png"
-              alt="Despark final interview interface"
-              className="mt-0"
-            />
-            <CaseFigure
-              src="/images/despark/2qimLK87m7ppqIU4MY6ENfa47I.png"
-              alt="Despark final profile interface"
-              className="mt-0"
-            />
-            <CaseFigure
-              src="/images/despark/ejSDGR7ZKJ7rFeY5tzqF5C1tjXQ.png"
-              alt="Despark final boosters interface"
-              className="mt-0"
-            />
+            {[
+              ["/images/despark/cqWXE1sfBOTiakN2vD8b3IMu98.png", "Despark dashboard welcome"],
+              ["/images/despark/HlbuQL2AsMxGpMtfv58U7lMHI.png", "Despark dashboard with active missions"],
+              ["/images/despark/2qimLK87m7ppqIU4MY6ENfa47I.png", "Despark dashboard mission overview"],
+              ["/images/despark/zvdcwIVJoB1iMgZmlhyua2f6a2o.png", "Despark edit profile name"],
+              ["/images/despark/GLyOV5C9bEV39ptZzkpmNkzH3I.png", "Despark edit profile details"],
+              ["/images/despark/MMQuirWSBwFNWVNUqpYcGHCTk.png", "Despark edit profile form"],
+              ["/images/despark/ejSDGR7ZKJ7rFeY5tzqF5C1tjXQ.png", "Despark account boosters"],
+              ["/images/despark/de3TWZJYQCPx4mfSM9djpNlMxk.png", "Despark Web3 experience booster"],
+              ["/images/despark/ysxU1m1DYwWRKMorKgOOy1JeBM.png", "Despark Web3 booster questions"],
+              ["/images/despark/mmyA2leK7KKnobViIslSMMiVgGM.png", "Despark Web3 booster completion"],
+              ["/images/despark/z35GLza5RJmasFQwm1wCTPArJI.png", "Despark account with completed boosters"],
+              ["/images/despark/txae1Bt8s8mZZoTtTTsNmFFHyw.png", "Despark all missions"],
+              ["/images/despark/L5b9yyiS8cmclDHU393agYm34Y8.png", "Despark mission overview"],
+              ["/images/despark/tqLX5gDSqbmhshDc55GTQBLeXs.png", "Despark interview schedule calendar"],
+              ["/images/despark/YqPlvRMC7yGGNWexwXBY8dEOk.png", "Despark schedule confirmation"],
+              ["/images/despark/EcEWiMlve29KQ1VVdhkufDY38.png", "Despark mission details"],
+            ].map(([src, alt]) => (
+              <CaseFigure key={src} src={src} alt={alt} className="mt-0" />
+            ))}
           </div>
         </section>
 

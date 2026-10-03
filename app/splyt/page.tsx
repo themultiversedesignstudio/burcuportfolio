@@ -19,10 +19,24 @@ export const metadata: Metadata = {
 
 const finalPhones = [
   { src: "/images/splyt/LGRC8Glm3ES5afGZDYRvInYjJo.png", alt: "Splyt review items screen" },
-  { src: "/images/splyt/J3erQEJULasNV2RJSMdPM6gcQM.png", alt: "Splyt moderator receipt with pending payments" },
-  { src: "/images/splyt/kFWLt0MhvXELh4UFq6grNclxzF4.png", alt: "Splyt payment status screen" },
-  { src: "/images/splyt/WrGfRdCJzKIRgIvAhIblvqgeco.png", alt: "Splyt participant bill screen" },
-  { src: "/images/splyt/KBTVN6oVRweDkSY0iWy9EAdlrGk.png", alt: "Splyt split assignment screen" },
+  { src: "/images/splyt/J3erQEJULasNV2RJSMdPM6gcQM.png", alt: "Splyt review items beside the original receipt" },
+  { src: "/images/splyt/kFWLt0MhvXELh4UFq6grNclxzF4.png", alt: "Splyt divide this item action" },
+  { src: "/images/splyt/WrGfRdCJzKIRgIvAhIblvqgeco.png", alt: "Splyt remove item action" },
+  { src: "/images/splyt/KBTVN6oVRweDkSY0iWy9EAdlrGk.png", alt: "Splyt assign or remove people" },
+  { src: "/images/splyt/So0MoVxdIs4k7DU6xZi4kkI7PE.png", alt: "Splyt review items with people splitting a line" },
+  { src: "/images/splyt/d5yu8pyvqntQz3cryX4zjg6hsc.png", alt: "Splyt create a Splyt confirmation" },
+  { src: "/images/splyt/NoIYfgdOfZyg7QCTojMJmMobPk.png", alt: "Splyt selection receipt" },
+  { src: "/images/splyt/uH6F9hPENPZRdikc50tTN3K990.png", alt: "Splyt confirm selection dialog" },
+  { src: "/images/splyt/XX7HmVo9KtI3T1h4tUDW68qmhs.png", alt: "Splyt participant receipt" },
+  { src: "/images/splyt/xVlMB42eAJN1sBF4tdknsbMAAj8.png", alt: "Splyt moderator receipt with paid and pending totals" },
+  { src: "/images/splyt/P9cvyMGqbO3NvRZ1yoeAQFONE00.png", alt: "Splyt paid items detail" },
+  { src: "/images/splyt/XciIhgGhIPQbtzku4WxCmkvrccQ.png", alt: "Splyt moderator receipt overview" },
+  { src: "/images/splyt/OKq4MMVEOL1b9v0yjI4NHwOhSI0.png", alt: "Splyt pending items detail" },
+  { src: "/images/splyt/yNhsWVSyQCq8QIIuqxZzTlMbuA.png", alt: "Splyt remind to pay dialog" },
+  { src: "/images/splyt/mL8EyX0hrNzbDatDlBeAHe4c91U.png", alt: "Splyt your Splyt participant summary" },
+  { src: "/images/splyt/GF9kREBv0eKZTehhHOW1yPEiqk.png", alt: "Splyt itemized your total" },
+  { src: "/images/splyt/88B809MgPedR8q2tuY3IKbsx8qk.png", alt: "Splyt choose a way to pay" },
+  { src: "/images/splyt/wrZG07RmsOwqvFmMSArQq53vz8.png", alt: "Splyt payment sent confirmation" },
 ];
 
 export default function SplytPage() {

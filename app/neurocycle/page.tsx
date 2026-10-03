@@ -18,11 +18,21 @@ export const metadata: Metadata = {
 };
 
 const finalPhones = [
-  { src: "/images/neurocycle/sokjhWduoul6dkvsqhxk3KJNJe0.png", alt: "Neurocycle welcome screen with Brain-Ee holding a phone" },
-  { src: "/images/neurocycle/GQiXCrvCKyCr7GV32Sodu8TbM.png", alt: "Neurocycle sign-up form on iPhone" },
-  { src: "/images/neurocycle/KQYoxEjsb8JfzZgREHZqs0XuW8.png", alt: "Birthday question screen in Neurocycle onboarding" },
-  { src: "/images/neurocycle/9UXMfVPROK2dOhUgAyYh7s4pWQk.png", alt: "Country selection screen in Neurocycle onboarding" },
-  { src: "/images/neurocycle/dNgq1TDie5JoHpujvTYw10hamyQ.png", alt: "App discovery question in Neurocycle onboarding" },
+  { src: "/images/neurocycle/sokjhWduoul6dkvsqhxk3KJNJe0.png", alt: "Neurocycle splash screen with Brain-Ee" },
+  { src: "/images/neurocycle/GQiXCrvCKyCr7GV32Sodu8TbM.png", alt: "Neurocycle create account form" },
+  { src: "/images/neurocycle/KQYoxEjsb8JfzZgREHZqs0XuW8.png", alt: "Birthday question in Neurocycle onboarding" },
+  { src: "/images/neurocycle/9UXMfVPROK2dOhUgAyYh7s4pWQk.png", alt: "Country selection in Neurocycle onboarding" },
+  { src: "/images/neurocycle/dNgq1TDie5JoHpujvTYw10hamyQ.png", alt: "How did you find us question in Neurocycle onboarding" },
+  { src: "/images/neurocycle/h4QYbX0SbxOTBBkR8S3ZnTEmcg.png", alt: "What do you hope to improve question" },
+  { src: "/images/neurocycle/PX8ofWR06eyBadRAHLXtk10UaAo.png", alt: "How the 7 day Neurocycle trial works" },
+  { src: "/images/neurocycle/t7g5IboBQemkqU2v2r2eSdujGk.png", alt: "Trial reminder calendar in Neurocycle" },
+  { src: "/images/neurocycle/8QCM5IpVXE43p280xx8BzP59ck.png", alt: "Brain Prep visualization exercise start" },
+  { src: "/images/neurocycle/sLs7fr9MJsz3yeEp4oJcezzBF0.png", alt: "Protective shield visualization step" },
+  { src: "/images/neurocycle/zkRaLZ8y2S6V3Vx39pEsZBVEU8.png", alt: "See this in your mind's eye shield step" },
+  { src: "/images/neurocycle/HIZ5vcdmDZt7x8ZK17b2jAdjwlA.png", alt: "Shield protecting from arrows visualization" },
+  { src: "/images/neurocycle/c6caR6sqgToAbbjMH2Cn77WZd6k.png", alt: "Positive energy in the mind and brain step" },
+  { src: "/images/neurocycle/RrsiecW1xQtA8zvxPFwUqJ3rws.png", alt: "You just built mental resilience" },
+  { src: "/images/neurocycle/z7Ynr5iDsFlHsA6Y4DwMYbzkGg.png", alt: "Optional mental health research consent" },
 ];
 
 export default function NeurocyclePage() {
