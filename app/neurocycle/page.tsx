@@ -34,7 +34,7 @@ export default function NeurocyclePage() {
         alt="Neurocycle Day 1 home on a MacBook and iPhone, with the pink Brain-Ee character"
       />
 
-      <div className="case-pad">
+      <div className="px-5 md:px-10">
         <section className="mt-16">
           <p className="text-base text-cream-soft">Project Overview</p>
           <h2 className="case-type mt-4 text-cream">

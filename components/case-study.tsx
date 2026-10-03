@@ -15,7 +15,7 @@ export function CaseHero({
 }) {
   return (
     <header className="pt-10 md:pt-16">
-      <h1 className="case-pad text-center font-bold lowercase leading-none tracking-[-0.07em] text-cream text-[clamp(3.4rem,12vw,8.5rem)]">
+      <h1 className="px-5 text-center font-bold lowercase leading-none tracking-[-0.07em] text-cream text-[clamp(3.4rem,12vw,8.5rem)] md:px-10">
         {title}
       </h1>
       <div className="mt-12 overflow-hidden bg-stage md:mt-16 md:rounded-none">
@@ -144,7 +144,7 @@ export function OtherProjects({ current }: { current: Project["slug"] }) {
   const rest = otherProjects(current);
 
   return (
-    <section className="case-pad mt-24 pb-8">
+    <section className="mt-24 px-5 pb-8 md:px-10">
       <h2 className="mb-10 font-bold lowercase leading-none tracking-[-0.06em] text-cream text-[clamp(2.4rem,7vw,5rem)]">
         other projects
       </h2>
@@ -159,7 +159,7 @@ export function OtherProjects({ current }: { current: Project["slug"] }) {
 
 export function CasePage({ children }: { children: ReactNode }) {
   return (
-    <article className="w-full pb-8">
+    <article className="mx-auto w-full max-w-[1440px] pb-8">
       {children}
     </article>
   );
