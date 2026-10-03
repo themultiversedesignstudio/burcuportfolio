@@ -77,9 +77,15 @@ export function CaseSection({
   );
 }
 
-export function CaseCopy({ children }: { children: ReactNode }) {
+export function CaseCopy({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
   return (
-    <div className="text-copy mt-5 max-w-5xl space-y-3">
+    <div className={cn("text-copy mt-5 max-w-5xl space-y-3", className)}>
       {children}
     </div>
   );

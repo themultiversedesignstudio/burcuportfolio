@@ -126,7 +126,7 @@ export default function NeurocyclePage() {
           label="User Research"
           heading="User research: Overview"
         >
-          <CaseCopy>
+          <CaseCopy className="max-w-none text-justify">
             <p>
               To better understand friction points in the legacy experience, the
               team analyzed 1,000+ user survey responses, usability findings,
