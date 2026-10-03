@@ -25,8 +25,8 @@ export function CaseHero({
           width={2048}
           height={1365}
           priority
-          className="mx-auto h-auto w-full max-w-[1440px] object-cover"
-          sizes="100vw"
+          className="mx-auto h-auto w-full max-w-full object-contain md:max-h-[460px] md:w-auto"
+          sizes="(min-width: 768px) 920px, 100vw"
         />
       </div>
     </header>
@@ -101,14 +101,14 @@ export function CaseFigure({
   className?: string;
 }) {
   return (
-    <figure className={cn("mt-10 overflow-hidden rounded-[28px] bg-stage", className)}>
+    <figure className={cn("mt-10", className)}>
       <Image
         src={src}
         alt={alt}
         width={2048}
         height={1600}
-        className="h-auto w-full object-cover"
-        sizes="(min-width: 1200px) 1280px, 100vw"
+        className="mx-auto h-auto w-full max-w-full rounded-[28px] object-contain md:max-h-[520px] md:w-auto"
+        sizes="(min-width: 768px) 960px, 100vw"
       />
     </figure>
   );
@@ -120,19 +120,19 @@ export function PhoneStrip({
   images: { src: string; alt: string }[];
 }) {
   return (
-    <div className="mt-10 flex gap-4 overflow-x-auto pb-4 md:grid md:grid-cols-5 md:overflow-visible">
+    <div className="mt-10 grid grid-cols-3 gap-3 sm:grid-cols-4 lg:grid-cols-8">
       {images.map((image) => (
         <figure
           key={image.src}
-          className="min-w-[180px] overflow-hidden rounded-[28px] bg-stage md:min-w-0"
+          className="overflow-hidden rounded-2xl bg-stage"
         >
           <Image
             src={image.src}
             alt={image.alt}
             width={1045}
             height={2048}
-            className="h-auto w-full object-cover"
-            sizes="(min-width: 768px) 20vw, 180px"
+            className="h-auto w-full object-contain"
+            sizes="(min-width: 1024px) 160px, 30vw"
           />
         </figure>
       ))}

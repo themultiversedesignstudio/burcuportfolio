@@ -28,8 +28,8 @@ export function ProjectCard({
             alt={project.heroAlt}
             width={2048}
             height={1365}
-            className="h-auto w-full object-cover transition duration-500 group-hover:scale-[1.015]"
-            sizes="100vw"
+            className="mx-auto h-auto w-full max-w-full object-contain transition duration-500 group-hover:scale-[1.015] md:max-h-[460px] md:w-auto"
+            sizes="(min-width: 768px) 920px, 100vw"
           />
         </div>
         <div className={bleed ? "px-5 md:px-10" : ""}>

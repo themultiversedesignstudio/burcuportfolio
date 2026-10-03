@@ -142,7 +142,7 @@ export default function DesparkPage() {
           <h2 className="text-[clamp(1.8rem,4vw,3.2rem)] font-medium tracking-tight text-cream">
             Final Design
           </h2>
-          <div className="mt-10 grid gap-6 md:grid-cols-2">
+          <div className="mt-10 grid grid-cols-2 gap-4 lg:grid-cols-4">
             {[
               ["/images/despark/cqWXE1sfBOTiakN2vD8b3IMu98.png", "Despark dashboard welcome"],
               ["/images/despark/HlbuQL2AsMxGpMtfv58U7lMHI.png", "Despark dashboard with active missions"],
