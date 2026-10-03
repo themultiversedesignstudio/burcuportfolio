@@ -34,7 +34,7 @@ export default function SplytPage() {
         alt="Three iPhones showing Splyt receipt review, moderator totals, and pending items"
       />
 
-      <div className="px-5 md:px-10">
+      <div className="case-pad">
         <section className="mt-16">
           <p className="text-base text-cream-soft">Project Overview</p>
           <h2 className="case-type mt-4 text-cream">
