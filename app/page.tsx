@@ -14,7 +14,7 @@ export default function HomePage() {
           payidarol
           <BrainBadge className="absolute bottom-[0.02em] right-0 size-[0.55em]" />
         </h1>
-        <p className="max-w-[40rem] text-left text-[1.25rem] font-normal leading-snug tracking-[-0.01em] text-cream md:ml-auto md:max-w-[36rem] md:text-right md:text-[1.375rem]">
+        <p className="max-w-[40rem] text-left text-[1.25rem] font-normal leading-snug tracking-[-0.01em] text-cream md:text-[1.375rem]">
           {site.tagline}
         </p>
       </section>
