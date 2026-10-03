@@ -44,15 +44,10 @@ export default function HomePage() {
           <div>
             <h3 className="text-base text-cream-soft">why work with me</h3>
             <p className="text-copy mt-5">
-              I believe the best products come from true collaboration. When we
-              work together, you&apos;re not just getting a designer; you&apos;re
-              getting a strategic partner who takes the time to understand your
-              business, your users, and your goals. I&apos;m highly
-              collaborative, vocal in advocating for strong product decisions,
-              and deeply invested in helping companies grow through shaping
-              product strategy, leading design conversations, contributing to
-              pitch decks, and communicating ideas that resonate with both users
-              and stakeholders.
+              The best products come from real collaboration. You get a
+              strategic partner who learns your business, your users, and your
+              goals, then helps you grow through product strategy and ideas
+              that land with both users and stakeholders.
             </p>
             <Button
               asChild

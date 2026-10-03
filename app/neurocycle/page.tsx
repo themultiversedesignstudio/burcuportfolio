@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { BirthdayPhone } from "@/components/birthday-phone";
 import {
   CaseCopy,
   CaseFigure,
@@ -229,13 +228,6 @@ export default function NeurocyclePage() {
           <h2 className="text-[clamp(1.8rem,4vw,3.2rem)] font-medium tracking-tight text-cream">
             Final Design
           </h2>
-          <p className="mt-4 max-w-3xl text-base text-cream-soft">
-            Birthday step on an iPhone. Tap a field and the keyboard drops in.
-            Next moves through month, day, and year.
-          </p>
-          <div className="mt-8 flex justify-center">
-            <BirthdayPhone />
-          </div>
           <PhoneStrip images={finalPhones} />
         </section>
       </div>
