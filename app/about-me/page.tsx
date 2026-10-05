@@ -45,17 +45,9 @@ const experience = [
 export default function AboutPage() {
   return (
     <div className="mx-auto w-full max-w-[1440px] px-5 pb-8 md:px-10">
-      <div className="relative w-fit max-w-full pt-8 md:pt-12">
-        <h1 className="font-bold lowercase leading-[0.8] tracking-[-0.07em] text-cream text-[clamp(4.2rem,20vw,18.4rem)]">
-          about me
-        </h1>
-        <span className="absolute right-[8%] top-[22%] bg-[#d8f6e6] px-2 py-1 text-[11px] font-medium text-[#3c4f46] shadow-[3px_3px_0_rgba(0,0,0,0.12)] md:px-4 md:py-2 md:text-lg">
-          UI Design
-        </span>
-        <span className="absolute bottom-[2%] left-[2%] bg-[#e3d7fb] px-2 py-1 text-[11px] font-medium text-[#4d3f63] shadow-[3px_3px_0_rgba(0,0,0,0.12)] md:bottom-[8%] md:left-[3%] md:px-4 md:py-2 md:text-lg">
-          UX Research
-        </span>
-      </div>
+      <h1 className="pt-8 font-bold lowercase leading-[0.8] tracking-[-0.07em] text-cream text-[clamp(4.2rem,20vw,18.4rem)] md:pt-12">
+        about me
+      </h1>
 
       <div className="mt-12 grid items-start gap-12 md:mt-16 md:grid-cols-2">
         <div>
