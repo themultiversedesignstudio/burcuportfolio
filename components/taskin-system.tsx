@@ -44,8 +44,12 @@ export function TaskinSystem() {
         {colors.map((color) => (
           <li key={color.name}>
             <div
-              className="flex h-16 items-end rounded-[16px] px-3 py-2 text-xs font-medium"
-              style={{ background: color.value, color: color.ink }}
+              className="flex h-16 items-end rounded-[16px] border px-3 py-2 text-xs font-medium"
+              style={{
+                background: color.value,
+                color: color.ink,
+                borderColor: "#cda5a6",
+              }}
             >
               {color.value}
             </div>
