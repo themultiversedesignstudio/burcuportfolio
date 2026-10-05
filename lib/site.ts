@@ -13,6 +13,19 @@ export const site = {
 
 export const projects = [
   {
+    slug: "taskin",
+    name: "taskin",
+    title: "Taşkın Bakery",
+    types: "(Brand, Web)",
+    blurb:
+      "Built a shared design system for the bakery site, so the menu, locations, catering, and story use one set of color, type, and components.",
+    href: "/taskin",
+    hero: "/images/taskin/hero.jpg",
+    heroAlt:
+      "Taşkın Bakery homepage with the maroon wordmark, serif headline, red menu button, and a photograph of dough and simit",
+    accent: "pink" as const,
+  },
+  {
     slug: "neurocycle",
     name: "neurocycle",
     title: "Neurocycle (redesigned)",
