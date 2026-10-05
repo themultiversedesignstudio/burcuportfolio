@@ -15,7 +15,14 @@ export function ProjectCard({
 
   return (
     <article className={bleed ? "px-5 md:px-10" : undefined}>
-      <Link href={project.href} className="group block max-w-[40rem]">
+      <Link
+        href={project.href}
+        className={
+          bleed
+            ? "group mx-auto block max-w-4xl"
+            : "group block max-w-[40rem]"
+        }
+      >
         <div className="overflow-hidden rounded-[28px]">
           <Image
             src={project.hero}
@@ -23,7 +30,7 @@ export function ProjectCard({
             width={2048}
             height={1365}
             className="h-auto w-full object-cover transition duration-500 group-hover:scale-[1.015]"
-            sizes="(min-width: 768px) 640px, 100vw"
+            sizes={bleed ? "(min-width: 768px) 896px, 100vw" : "(min-width: 768px) 640px, 100vw"}
           />
         </div>
         <Heading className="mt-5 text-[28px] font-medium tracking-tight text-[#9c9a95] md:text-[32px]">
