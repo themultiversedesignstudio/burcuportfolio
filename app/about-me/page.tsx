@@ -18,7 +18,7 @@ const experience = [
   },
   {
     company: "multiverse design studio",
-    role: "founder, product designer",
+    role: "product design engineer",
     dates: "jun 2023 - now",
     body: "design and build live digital products, from design systems and a website-integrated POS to AI-assisted client workflows.",
   },
