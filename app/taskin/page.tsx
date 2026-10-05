@@ -99,7 +99,7 @@ export default function TaskinPage() {
             <h3 className="case-type text-cream">3. Build the pieces from the tokens</h3>
             <CaseList
               items={[
-                "Primary and secondary buttons, the open-now chip, cards, and navigation all read those variables. Actions and photographs share a 20px radius.",
+                "Navigation, open and coming-soon badges, the partner button, location tabs, and the location card all read those variables.",
                 "The same pieces are what the homepage, menu, locations, catering, and wholesale use. The live site is the system in use.",
               ]}
             />
