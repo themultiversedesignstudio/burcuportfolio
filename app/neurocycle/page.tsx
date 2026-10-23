@@ -219,7 +219,7 @@ export default function NeurocyclePage() {
 
         <section className="mt-16 md:mt-24">
           <p className="text-base text-cream-soft">Color</p>
-          <h2 className="mt-3 text-[clamp(1.7rem,4vw,3.1rem)] font-medium tracking-tight text-pink">
+          <h2 className="case-type mt-3 text-pink">
             Primary Colors
           </h2>
           <CaseCopy>
