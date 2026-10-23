@@ -241,6 +241,29 @@ export default function NeurocyclePage() {
           </h2>
           <PhoneStrip images={finalPhones} />
         </section>
+
+        <section className="mt-16 md:mt-24">
+          <h2 className="text-[clamp(1.8rem,4vw,3.2rem)] font-medium tracking-tight text-cream">
+            Reflection
+          </h2>
+          <CaseCopy>
+            <p>
+              Redesigning the onboarding and testing it with our real users was
+              an advantage I did not have on other projects. People already in
+              the 63-day program, and the 1,000+ survey responses, showed me
+              where trust broke before anyone reached the method. I could
+              change the account form, the free trial, and the long intro from
+              what they actually said.
+            </p>
+            <p>
+              What I would change is how early I tested the new exercise. The
+              survey told us the 20-minute video was too long. It could not
+              tell us whether Brain Prep felt like a fair replacement until
+              someone tried it. I would run that test with the same users
+              before locking the rest of the flow.
+            </p>
+          </CaseCopy>
+        </section>
       </div>
 
       <OtherProjects current="neurocycle" />
