@@ -25,7 +25,7 @@ export function CaseHero({
           width={2048}
           height={1365}
           priority
-          className="mx-auto h-auto w-full max-w-full object-contain md:max-h-[460px] md:w-auto"
+          className="mx-auto h-auto w-full max-w-full rounded-[28px] object-contain md:max-h-[460px] md:w-auto"
           sizes="(min-width: 768px) 920px, 100vw"
         />
       </div>
