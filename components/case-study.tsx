@@ -126,16 +126,13 @@ export function PhoneStrip({
   return (
     <div className="mt-10 flex gap-4 overflow-x-auto pb-4 md:grid md:grid-cols-5 md:overflow-visible">
       {images.map((image) => (
-        <figure
-          key={image.src}
-          className="min-w-[180px] overflow-hidden rounded-[28px] bg-stage md:min-w-0"
-        >
+        <figure key={image.src} className="min-w-[180px] md:min-w-0">
           <Image
             src={image.src}
             alt={image.alt}
             width={1045}
             height={2048}
-            className="h-auto w-full object-cover"
+            className="h-auto w-full"
             sizes="(min-width: 768px) 20vw, 180px"
           />
         </figure>
