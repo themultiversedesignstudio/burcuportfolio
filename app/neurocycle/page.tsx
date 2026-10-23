@@ -147,7 +147,7 @@ export default function NeurocyclePage() {
             </p>
             <p>Key demographic findings included:</p>
           </CaseCopy>
-          <dl className="mt-8 grid max-w-xl grid-cols-3 gap-6 text-cream">
+          <dl className="mx-auto mt-8 grid max-w-xl grid-cols-3 gap-6 text-center text-cream">
             <div>
               <dt className="text-4xl font-bold tracking-tight">86%</dt>
               <dd className="mt-1 text-base text-cream-soft">female</dd>
