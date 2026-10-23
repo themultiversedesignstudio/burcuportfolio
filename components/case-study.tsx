@@ -124,7 +124,7 @@ export function PhoneStrip({
       {images.map((image) => (
         <figure
           key={image.src}
-          className="overflow-hidden rounded-2xl bg-stage"
+          className="overflow-hidden rounded-2xl"
         >
           <Image
             src={image.src}
