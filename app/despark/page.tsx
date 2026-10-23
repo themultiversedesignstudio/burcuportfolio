@@ -66,7 +66,8 @@ export default function DesparkPage() {
         />
 
         <div className="mt-16">
-          <h3 className="case-type text-purple">
+          <p className="text-base text-cream-soft">Solutions</p>
+          <h3 className="case-type mt-3 text-purple">
             1. Simplified Mission Interview Experience
           </h3>
           <CaseList

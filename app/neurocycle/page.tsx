@@ -83,7 +83,8 @@ export default function NeurocyclePage() {
         />
 
         <div className="mt-16">
-          <h3 className="case-type text-pink">
+          <p className="text-base text-cream-soft">Solutions</p>
+          <h3 className="case-type mt-3 text-pink">
             1. Optimized account creation to increase onboarding conversion
           </h3>
           <CaseList

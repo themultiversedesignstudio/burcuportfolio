@@ -92,7 +92,8 @@ export default function SplytPage() {
         />
 
         <div className="mt-16">
-          <h3 className="case-type text-purple">
+          <p className="text-base text-cream-soft">Solutions</p>
+          <h3 className="case-type mt-3 text-purple">
             1. Enabled moderators to check the original receipt
           </h3>
           <CaseList
